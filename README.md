@@ -1,5 +1,5 @@
 # Sign Language Alphabet Recognition
-Run the the corresponding Jupiter Notebooks in the following order:
+Run the the corresponding Jupiter Notebooks inside the ``notebooks`` folder in the following order:
 
 ## 1 - Installations
 The following required Python packages will be installed inside this notebook:
