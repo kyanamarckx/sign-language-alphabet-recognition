@@ -68,4 +68,11 @@ Finally, this scaler is saved separately so it can be reused consistently throug
 
 
 ## 5 - Testing
+Now that the best-performing model has been selected and trained, we can move on to testing and real-time usage.
+To do this, we first load the trained model along with the scaler that was used during preprocessing, ensuring that all new input data are handled consistently with the training phase.
 
+Next, we define a prediction function that takes the detected hand landmarks as input and returns the corresponding letter from the sign language alphabet.
+
+The final step is where the real testing begins:
+we initialize MediaPipe for hand detection and drawing, and set up the webcam stream using OpenCV.
+The trained model is then integrated into this live feed; a separate window opens where your hand movements are tracked in real time, and the system displays both the predicted letter and a confidence score indicating how certain the model is about its prediction.
