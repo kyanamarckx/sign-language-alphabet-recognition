@@ -59,6 +59,12 @@ data/
 
 
 ## 4 - Model
+The main objective of this notebook is to train and evaluate multiple machine learning models (four in total) in order to determine which one performs best.
+Each model is trained and validated on the preprocessed sign language data. After the initial training, a grid search is performed to tune the hyperparameters and explore different parameter combinations. The model achieving the highest accuracy on both the validation and test sets after tuning is selected as the final model.
+
+Once the best-performing model is identified, it will be saved as a .pkl file for later use.
+Afterward, we also load the same scaler used during preprocessing to ensure that all incoming data (e.g., live webcam frames) are processed in exactly the same way as the training data.
+Finally, this scaler is saved separately so it can be reused consistently throughout the project.
 
 
 ## 5 - Testing
