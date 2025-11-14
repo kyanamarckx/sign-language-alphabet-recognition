@@ -76,3 +76,6 @@ Next, we define a prediction function that takes the detected hand landmarks as 
 The final step is where the real testing begins:
 we initialize MediaPipe for hand detection and drawing, and set up the webcam stream using OpenCV.
 The trained model is then integrated into this live feed; a separate window opens where your hand movements are tracked in real time, and the system displays both the predicted letter and a confidence score indicating how certain the model is about its prediction.
+
+## 6 - App
+This is a Python script made from the testing notebook because it may be easier in use.
