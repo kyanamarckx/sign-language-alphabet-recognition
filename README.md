@@ -74,8 +74,8 @@ To do this, we first load the trained model along with the scaler that was used 
 Next, we define a prediction function that takes the detected hand landmarks as input and returns the corresponding letter from the sign language alphabet.
 
 The final step is where the real testing begins:
-we initialize MediaPipe for hand detection and drawing, and set up the webcam stream using OpenCV.
+We initialize MediaPipe for hand detection and drawing, and set up the webcam stream using OpenCV.
 The trained model is then integrated into this live feed; a separate window opens where your hand movements are tracked in real time, and the system displays both the predicted letter and a confidence score indicating how certain the model is about its prediction.
 
 ## 6 - App
-This is a Python script made from the testing notebook because it may be easier in use.
+This standalone Python script was created from the testing notebook to provide a more convenient way to run the application. It uses the continuous detection and prediction logic, enabling you to use the sign-recognition system indefinitely without restarting the program.
