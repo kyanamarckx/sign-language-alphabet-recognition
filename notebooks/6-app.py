@@ -4,7 +4,7 @@ import numpy as np
 import mediapipe as mp
 
 
-# !! CHANGE THIS WITH YOUR OWN PATHS !!
+# TODO !! CHANGE THIS WITH YOUR OWN PATHS (it will have to look similiar to mine, relative paths don't work) !!
 SCALER_PATH = "C:\\Users\\kyana\\Documents\\GitHub\\sign-language-alphabet-recognition\\model\\scaler.pkl"
 BEST_MODEL_PATH = "C:\\Users\\kyana\\Documents\\GitHub\\sign-language-alphabet-recognition\\model\\neural_network_model.pkl"
 
